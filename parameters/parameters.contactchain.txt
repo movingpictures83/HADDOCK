@@ -1,0 +1,2 @@
+pdbfile	PDB/1.pdb
+chainID	25

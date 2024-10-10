@@ -1,0 +1,11 @@
+Prefix pipelines/HADDOCK/
+Plugin JoinPDB inputfile parameters/parameters.join.txt outputfile PDB/3.pdb
+Plugin ContactChain inputfile parameters/parameters.contactchain.txt outputfile output.contact.chain.txt
+Plugin BlankChain inputfile PDB/1.pdb outputfile PDB/output.blank.chain.pdb
+Plugin BlankChainSeg inputfile PDB/1.pdb outputfile PDB/output.blank.chain.seg,pdb
+Plugin BlankSeg inputfile PDB/1.pdb outputfile PDB/output.blank.seg.pdb
+Plugin ChainSeg inputfile PDB/1.pdb outputfile PDB/output.chain.seg.pdb
+Plugin Chain2Seg inputfile PDB/1.pdb outputfile PDB/output.chain2seg.pdb
+Plugin Seg2Chain inputfile PDB/1.pdb outputfile PDB/output.seg2chain.pdb
+Plugin CalcAccessibility inputfile parameters/parameters.calcaccess.txt outputfile none
+Plugin HPronate inputfile PDB/1.pdb outputfile none

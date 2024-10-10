@@ -1,0 +1,2 @@
+pdb1	PDB/1.pdb
+pdb2	PDB/2.pdb
